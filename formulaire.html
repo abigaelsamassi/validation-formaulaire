@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation formulaire </title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+
+<body>
+    <div id="formulaire">
+        <h2>REGISTER WITH US</h2>
+        <form action="" method="POST" id="form">
+            <label for="nom">nom:</label><br>
+            <input type="text" class="fvide" id="nom" placeholder="entrez votre nom" required><br>
+            <span id="nomInv"></span>
+
+            <label for="email">e-mail</label><br>
+            <input type="email" id="email" placeholder="entrez votre adress e-mail" required>
+            <span id="emailInv"> </span><br>
+
+            <label for="password">mot de passe </label><br>
+            <input type="text" id="password" placeholder="entrez votre mot de passe" required>
+            <span id="passwordInv"></span><br>
+            <label for="passwordR">confirmé mot de passe</label><br>
+            <input type="text" id="passwordR" placeholder="confirmé votre mot de passe" required>
+            <span id="passwordRinv"> </span>
+
+            <div>
+                <button id="bouton" type="submit" value="valider">envoyer</button>
+            </div>
+
+
+
+        </form>
+
+
+
+        <script src="formulaire.js"></script>
+</body>
+
+</html>
